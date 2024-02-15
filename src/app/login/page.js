@@ -1,6 +1,6 @@
 import React from "react";
 
-const Login = () => {
+const login = () => {
   return (
     <div>
       <div className="flex h-screen justify-center items-center relative bg-login-background bg-no-repeat bg-cover opacity-85">
@@ -21,7 +21,7 @@ const Login = () => {
               savings on OYO stays and with our mmany travels partners .
             </p>
           </div>
-          <div className=" pb-40 ml-20 w-10/12 border bg-slate-50">
+          <div className=" pb-40 ml-20 w-9/12 border bg-slate-50">
             <p className="h-10 px-10 flex text-white font-bold  items-center bg-gradient-to-r from-red-300 to-red-600">
               Sign Up and & get 500 OYO Money.
             </p>
@@ -35,12 +35,12 @@ const Login = () => {
                 placeholder="please enter your Name"
                 className="outline-none border my-3 border-black px-3 py-1 w-96 h-10 "
               />
-               <input
+              <input
                 type="email"
                 placeholder="please enter your email"
                 className="outline-none border my-3 border-black px-3 py-1 w-96 h-10 "
               />
-               <input
+              <input
                 type="password"
                 placeholder="please enter your password"
                 className="outline-none border my-3 border-black px-3 py-1 w-96 h-10 "
@@ -66,4 +66,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default login;
