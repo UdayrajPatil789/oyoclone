@@ -1,12 +1,12 @@
+//const {username,password}= process.env
 import mongoose from "mongoose";
-const URI ="mongodb+srv://udayrajpatil:UdayFer@007@atlascluster.p9qcyzl.mongodb.net/oyo"
-
+export const connectionstr = "mongodb+srv://udayraj:admin@cluster0.ffow7ym.mongodb.net/oyo";
+//mongodb+srv://udayraj:<password>@cluster0.ffow7ym.mongodb.net/?retryWrites=true&w=majority
 const connectDB = async ()=>{
-        await mongoose.connect(URI,{
-            useNewUrlParser:true,
-            useUnifiedTopology:true
-        });
-        console.log("DB Connected..");
+        await mongoose.connect(connectionstr);
+
 }
 
 export default connectDB;
+
+
